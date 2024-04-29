@@ -1,0 +1,31 @@
+.clickBtn {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.btn1 {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+.btn2 {
+    background-color: yellow;
+}
+
+/* to share styles, can use the grouping selector(below) or can use shared class(above) */
+
+.btn3, .btn4 {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.btn3 {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+.btn4 {
+    background-color: yellow;
+}
